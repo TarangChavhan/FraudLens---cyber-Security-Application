@@ -15,6 +15,7 @@ import {
   Smartphone,
   CreditCard,
 } from 'lucide-react';
+import IndiaCrimeMap from '../components/IndiaCrimeMap';
 
 const LandingPage: React.FC = () => {
   return (
@@ -81,6 +82,9 @@ const LandingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* National Crime & IPC Statistics Map Visualization */}
+      <IndiaCrimeMap />
 
       {/* Feature Pillars Section */}
       <section className="py-20 px-6 bg-slate-900/80 border-t border-slate-800">

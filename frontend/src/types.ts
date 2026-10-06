@@ -46,7 +46,8 @@ export interface CheckResult {
 export interface GuidelineItem {
   _id?: string;
   title: string;
-  content: string;
+  content?: string;
+  text?: string;
   category?: string;
 }
 
